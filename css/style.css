@@ -160,6 +160,7 @@ body {
   outline-color: transparent;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-left: 10px;
 }
 
 .browsers .firefox:hover {
@@ -192,4 +193,116 @@ body {
   max-width: 500px;
   margin-top: 30px;
   line-height: 27px;
+}
+
+.offered__services {
+  margin-top: 80px;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__features {
+  /* margin-left: 100px; */
+  padding: 0 120px;
+}
+
+.services__img img {
+  max-width: 100%;
+}
+
+.about__features h3 {
+  color: var(--very-dark-blue);
+  font-size: 2rem;
+}
+
+.about__features p {
+  color: var(--grayish-blue);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 27px;
+  max-width: 400px;
+}
+
+.about__features button {
+  background-color: var(--soft-blue);
+  color: var(--white);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  outline-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.about__features button:hover {
+  border: 1px solid var(--soft-blue);
+  color: var(--soft-blue);
+  background-color: transparent;
+}
+
+/* Extension Section */
+.extension__section-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.extension__intro {
+  text-align: center;
+}
+
+.extension__intro h2 {
+  color: var(--very-dark-blue);
+}
+
+.extension__intro p {
+  color: var(--grayish-blue);
+  margin-top: 20px;
+  line-height: 27px;
+}
+
+.chrome {
+  height: max-content;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 8px;
+}
+
+.chrome__logo img {
+  max-width: 100%;
+}
+
+.about__chrome {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about__chrome h3 {
+  color: var(--very-dark-blue);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about__chrome p {
+  color: var(--grayish-blue);
+  font-size: 14px;
+}
+
+.install__btn {
+  margin-top: 15px;
+}
+
+.install__btn button {
+  background-color: var(--soft-blue);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 32px;
+  outline-color: transparent;
 }

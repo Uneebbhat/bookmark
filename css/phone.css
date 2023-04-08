@@ -23,7 +23,27 @@
     text-align: center;
   }
 
+  .browsers .firefox {
+    margin-top: 10px;
+  }
+
   .feature__section-wrapper {
+    padding: 40px 20px;
+  }
+
+  .offered__services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .about__features {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .extension__section-wrapper {
     padding: 40px 20px;
   }
 }
