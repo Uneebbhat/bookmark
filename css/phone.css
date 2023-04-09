@@ -46,4 +46,17 @@
   .extension__section-wrapper {
     padding: 40px 20px;
   }
+
+  .offered__extension {
+    flex-direction: column;
+  }
+
+  .firefox {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .questions__section-wrapper {
+    padding: 40px 20px;
+  }
 }
